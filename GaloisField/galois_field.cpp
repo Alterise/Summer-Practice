@@ -60,7 +60,7 @@ galois_field operator~(const galois_field& field) {
 std::vector<galois_field> galois_field::get_all_irreducible_galois_fields() {
     std::vector<galois_field> result;
 
-    for (uint16_t i = 0b100000001; i <= 0b111111111; ++i) {
+    for (uint16_t i = 0b100000001; i <= 0b111111111; i += 2) {
         uint16_t j;
         for (j = 0b000010; j <= 0b11111; ++j) {
             if (mod(i, j) == 0) {
