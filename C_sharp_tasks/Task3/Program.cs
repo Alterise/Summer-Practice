@@ -8,13 +8,29 @@ namespace Task3
     {
         static void Main(string[] args)
         {
-            Cache<int> cache = new Cache<int>(TimeSpan.FromSeconds(3), 3);
-            
-            cache.Save("3", 3);
-            cache.Save("2", 2);
-            cache.Save("1", 1);
-            cache.Save("4", 4);
+            Cache<int> cache;
+            try
+            {
+                cache = new Cache<int>(TimeSpan.FromSeconds(3), 3);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Something went wrong with construction.");
+                return;
+            }
 
+            try
+            { 
+                cache.Save("3", 3);
+                cache.Save("2", 2);
+                cache.Save("1", 1);
+                cache.Save("4", 4);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Something went wrong with saving to cache.");
+            }
+            
             try
             {
                 cache.Get("3");
@@ -34,10 +50,17 @@ namespace Task3
                 Console.WriteLine("4 already in cache.");
             }
 
-            Console.WriteLine(cache.Get("1"));
-            Console.WriteLine(cache.Get("2"));
-            Console.WriteLine(cache.Get("4"));
-            Console.WriteLine();
+            try
+            {
+                Console.WriteLine(cache.Get("1"));
+                Console.WriteLine(cache.Get("2"));
+                Console.WriteLine(cache.Get("4"));
+                Console.WriteLine();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Something went wrong with getting from cache.");
+            }
             
             Console.WriteLine("Waiting for 3 seconds...");
             Thread.Sleep(3000);
