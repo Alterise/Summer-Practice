@@ -29,7 +29,7 @@ namespace Task2
         
         public void Add(Severity severity, string data)
         {
-            _file.WriteLine("[" +  DateTime.Now + "] [" + severity + "]: " + data);
+            _file.WriteLine($"[{DateTime.Now}][{severity}]: {data}");
         }
     }
 }
