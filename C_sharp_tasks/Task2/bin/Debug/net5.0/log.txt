@@ -1,3 +1,3 @@
-[10.07.2021 20:25:53][Critical]: Something happened
-[10.07.2021 20:25:53][Information]: Somewhere, IDK
-[10.07.2021 20:25:53][Trace]: Oh my...
+[10.07.2021 20:37:33][Critical]: Something happened
+[10.07.2021 20:37:33][Information]: Somewhere, IDK
+[10.07.2021 20:37:33][Trace]: Oh my...

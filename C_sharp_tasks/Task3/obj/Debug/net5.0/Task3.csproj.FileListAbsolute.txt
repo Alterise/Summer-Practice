@@ -1,0 +1,16 @@
+D:\GitHub\Summer-Practice\C_sharp_tasks\Task3\bin\Debug\net5.0\Task3.exe
+D:\GitHub\Summer-Practice\C_sharp_tasks\Task3\bin\Debug\net5.0\Task3.deps.json
+D:\GitHub\Summer-Practice\C_sharp_tasks\Task3\bin\Debug\net5.0\Task3.runtimeconfig.json
+D:\GitHub\Summer-Practice\C_sharp_tasks\Task3\bin\Debug\net5.0\Task3.runtimeconfig.dev.json
+D:\GitHub\Summer-Practice\C_sharp_tasks\Task3\bin\Debug\net5.0\Task3.dll
+D:\GitHub\Summer-Practice\C_sharp_tasks\Task3\bin\Debug\net5.0\ref\Task3.dll
+D:\GitHub\Summer-Practice\C_sharp_tasks\Task3\bin\Debug\net5.0\Task3.pdb
+D:\GitHub\Summer-Practice\C_sharp_tasks\Task3\obj\Debug\net5.0\Task3.csproj.AssemblyReference.cache
+D:\GitHub\Summer-Practice\C_sharp_tasks\Task3\obj\Debug\net5.0\Task3.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Summer-Practice\C_sharp_tasks\Task3\obj\Debug\net5.0\Task3.AssemblyInfoInputs.cache
+D:\GitHub\Summer-Practice\C_sharp_tasks\Task3\obj\Debug\net5.0\Task3.AssemblyInfo.cs
+D:\GitHub\Summer-Practice\C_sharp_tasks\Task3\obj\Debug\net5.0\Task3.csproj.CoreCompileInputs.cache
+D:\GitHub\Summer-Practice\C_sharp_tasks\Task3\obj\Debug\net5.0\Task3.dll
+D:\GitHub\Summer-Practice\C_sharp_tasks\Task3\obj\Debug\net5.0\ref\Task3.dll
+D:\GitHub\Summer-Practice\C_sharp_tasks\Task3\obj\Debug\net5.0\Task3.pdb
+D:\GitHub\Summer-Practice\C_sharp_tasks\Task3\obj\Debug\net5.0\Task3.genruntimeconfig.cache
