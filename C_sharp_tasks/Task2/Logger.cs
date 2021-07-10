@@ -20,7 +20,6 @@ namespace Task2
         public Logger(string filename)
         {
             _file = new(filename);
-            _file.AutoFlush = true;
         }
 
         public void Dispose()
