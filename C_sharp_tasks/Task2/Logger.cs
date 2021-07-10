@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Task2
 {
-    public class Logger
+    public class Logger : IDisposable
     {
         private readonly StreamWriter _file;
 
@@ -21,6 +21,11 @@ namespace Task2
         {
             _file = new(filename);
             _file.AutoFlush = true;
+        }
+
+        public void Dispose()
+        {
+            _file.Dispose();
         }
         
         public void Add(Severity severity, string data)

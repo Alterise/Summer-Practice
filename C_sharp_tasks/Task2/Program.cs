@@ -8,6 +8,7 @@
             log.Add(Logger.Severity.Critical, "Something happened");
             log.Add(Logger.Severity.Information, "Somewhere, IDK");
             log.Add(Logger.Severity.Trace, "Oh my...");
+            log.Dispose();
         }
     }
 }
