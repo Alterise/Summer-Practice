@@ -97,3 +97,12 @@ std::ostream& operator<<(std::ostream& out, const galois_field& field) {
     out << polynomial_representation;
     return out;
 }
+
+std::ostream& operator<<(std::ostream& out, const std::vector<galois_field>& vec) {
+    out << "Irreducible polynomials:" << std::endl;
+
+    for (const auto &field : vec) {
+        out << field << std::endl;
+    }
+    return out;
+}
