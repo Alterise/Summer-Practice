@@ -6,19 +6,7 @@
     <projectFile>Task4/Task4.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cadc4c9-f080-41a8-8767-a9a3ce97a8f7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.C_sharp_tasks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.C_sharp_tasks/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task3/obj/Debug/net5.0/Task3.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task3/obj/Debug/net5.0/Task3.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/bin/Debug/net5.0/Students/211.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/bin/Debug/net5.0/Students/211.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/bin/Debug/net5.0/Task4.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/bin/Debug/net5.0/Task4.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/bin/Debug/net5.0/Task4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/bin/Debug/net5.0/Task4.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/bin/Debug/net5.0/ref/Task4.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/bin/Debug/net5.0/ref/Task4.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/obj/Debug/net5.0/Task4.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/obj/Debug/net5.0/Task4.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/obj/Debug/net5.0/Task4.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/obj/Debug/net5.0/Task4.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/obj/Debug/net5.0/Task4.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/obj/Debug/net5.0/Task4.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task4/obj/Debug/net5.0/ref/Task4.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Task4/obj/Debug/net5.0/ref/Task4.dll" afterDir="false" />
-    </list>
+    <list default="true" id="3cadc4c9-f080-41a8-8767-a9a3ce97a8f7" name="Default Changelist" comment="Ticket Assigner DONE" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,7 +121,7 @@
       <updated>1625919142910</updated>
       <workItem from="1625919145860" duration="26479000" />
       <workItem from="1625960749103" duration="335000" />
-      <workItem from="1625995882440" duration="15484000" />
+      <workItem from="1625995882440" duration="15790000" />
     </task>
     <task id="LOCAL-00001" summary="Logger DONE">
       <created>1625923340496</created>
@@ -177,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625960986615</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Ticket Assigner DONE">
+      <created>1626014223957</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1626014223957</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,23 +198,37 @@
     <MESSAGE value="Cache DONE" />
     <MESSAGE value="Add some stuff" />
     <MESSAGE value="Add more exception handlers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add more exception handlers" />
+    <MESSAGE value="Ticket Assigner DONE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ticket Assigner DONE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Task4/Program.cs</url>
-          <line>89</line>
-          <properties documentPath="D:\GitHub\Summer-Practice\C_sharp_tasks\Task4\Program.cs" initialLine="89" containingFunctionPresentation="method 'FullNameExtension'">
+          <line>105</line>
+          <properties documentPath="D:\GitHub\Summer-Practice\C_sharp_tasks\Task4\Program.cs" initialLine="105" containingFunctionPresentation="method 'FullNameExtension'">
             <startOffsets>
-              <option value="2880" />
+              <option value="3620" />
             </startOffsets>
             <endOffsets>
-              <option value="2939" />
+              <option value="3661" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Task4/Program.cs</url>
+          <line>182</line>
+          <properties documentPath="D:\GitHub\Summer-Practice\C_sharp_tasks\Task4\Program.cs" initialLine="182" containingFunctionPresentation="method 'FullNameExtension'">
+            <startOffsets>
+              <option value="7063" />
+            </startOffsets>
+            <endOffsets>
+              <option value="7104" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
