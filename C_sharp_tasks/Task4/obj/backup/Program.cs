@@ -15,13 +15,6 @@ namespace Task4
             public string patronymic;
         }
 
-        public struct StudentInfoWrapper
-        {
-            public StudentInfo student;
-            public int surnameIterator;
-            public int patronymicIterator;
-        }
-
         static List<StudentInfo> GetStudentsInfo(string directoryPath)
         {
             if (!Directory.Exists(directoryPath))
@@ -91,7 +84,7 @@ namespace Task4
             foreach (var student in studentsInfo)
             {
                 File.Copy($"{tickets[rd.Next(0, tickets.Count)]}",
-                    $"{directoryPath}\\{student.group}_{student.surname}{student.surname.Substring(0, 1)}" +
+                    $"{directoryPath}\\{student.group}_{student.surname}{student.name.Substring(0, 1)}" +
                     $"{student.patronymic.Substring(0, 1)}.pdf");
             }
         }
